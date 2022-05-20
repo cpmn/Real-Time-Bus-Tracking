@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href="#dart-about">Description</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
+  <a href="#sparkles-features">Roadmap</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -21,13 +21,29 @@
 
 ## :dart: Description ##
 
-MIT xPRO Week 9 Project: Real Time Bus Tracking. This project was made during week 9 of MIT bootcamp ...
+This project was made during Week 9 of MIT xPRO bootcamp, this is a small project to add animations into Maps using  mapbox framework, the original project from MIT was to walk from MIT univeristy to Harvard University.
 
-## :sparkles: Features ##
+For this Proyect one of the requiriment was now retrive data from Real Time Bus Tracker API: [MBTA API](https://api-v3.mbta.com/), and display in the map the current location of each bus retrieved from API.
 
-:heavy_check_mark: Feature 1: As a Simpson Fan I would like to have links or buttons to change diferent images representing Simpson's characteres.\
-:heavy_check_mark: Feature 2: As a Simpson Fan I would like to apply the eyes movement to  Homero, March, Bart and Lisa faces\
-:heavy_check_mark: Feature 5: As a user I would like to see the contacts and the copy right;
+## :dart: DEMO ##
+
+This website is responsive so you can try from you desktop, laptop, mobile or your table.
+Enjoy the live [DEMO](https://cpmn.github.io/Real-Time-Bus-Tracking/)
+
+
+## :sparkles: Roadmap ##
+
+### Improvements ###
+:heavy_check_mark: Feature 1: As a MBTA bus user I would like to see the current location of my Bus ID.\
+:heavy_check_mark: Feature 2: As a MBTA bus user I would like to see the identification number of my bus\
+:heavy_check_mark: Feature 3: As a MBTA bus user I would like to see the each bus with different color\;
+
+### For future enhancemnts: ###
+:x: Feature 4: Add a tool tip on mouse over on each bus and display information of each bus.\
+
+### Bugs for fix ###
+:x: Issue 1: On mouse over a bus, the tool tip of ID disapear.\
+
 
 ## :rocket: Technologies ##
 
@@ -36,6 +52,8 @@ The following tools were used in this project:
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/)
 - [JavaScript](https://www.w3schools.com/js/)
+- [MapBox](https://docs.mapbox.com/)
+- [Leaflet](https://leafletjs.com/)
 
 ## :white_check_mark: Requirements ##
 
@@ -53,7 +71,7 @@ $ cd Real-Time-Bus-Tracking
 # Run index.html in a browser
 - [Index.html](index.html)
 ```
-Once the webpage is loaded you will see 4 buttons bellow the title, you can click in any of those buttons and start changing the faces in the portrait and eyes will fit any of those faces.
+Once the webpage is loaded you will see all the buses locations from the API, buses will be displayed with a color and a tooltip with the ID
 
 ## :memo: License ##
 
